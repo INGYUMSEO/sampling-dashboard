@@ -52,7 +52,6 @@ pip install -r requirements.txt
 
 ### macOS / Linux 설치 과정
 
-```bash
 # 가상환경 생성
 python3 -m venv .venv
 
@@ -62,7 +61,6 @@ source .venv/bin/activate
 # 패키지 설치
 pip install -r requirements.txt
 
-``markdown
 ## 🧭 사용법 요약
 
 ### 탭 구성
