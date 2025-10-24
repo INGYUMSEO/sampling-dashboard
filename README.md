@@ -30,39 +30,6 @@
   → `pip install -r requirements.txt`
 
 ---
-
-## 📦 설치 & 로컬 실행
-### 1) 가상환경 & 패키지
-
-> Python 3.10+ 권장. PowerShell은 `ExecutionPolicy` 때문에 활성화 오류가 나면 아래 참고를 확인하세요.
-
-**Windows (PowerShell)**
-
-```powershell
-# 가상환경 생성
-python -m venv .venv
-
-# 활성화
-.\.venv\Scripts\Activate.ps1
-# (필요 시) 일시적으로 스크립트 허용:
-# Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
-# 패키지 설치
-pip install -r requirements.txt
-
-### macOS / Linux 설치 과정
-
-# 가상환경 생성
-python3 -m venv .venv
-
-# 활성화
-source .venv/bin/activate
-
-# 패키지 설치
-pip install -r requirements.txt
-
-## 🧭 사용법 요약
-
 ### 탭 구성
 
 #### 현황/상세
@@ -100,3 +67,33 @@ pip install -r requirements.txt
    - 지역/성별/나이 필터 선택 → 기본 제공 **균등 비율 JSON** 그대로 사용 → **원클릭 실행**
    - “회차 생성 완료! `wave_id=…`” 메시지와 **요약/배정 상세**가 출력되면 OK.
 3. **현황/상세** 탭에서 **배정 상세 CSV/XLSX** 다운로드로 결과 확인.
+
+## 📦 설치 & 로컬 실행
+### 1) 가상환경 & 패키지
+
+> Python 3.10+ 권장. PowerShell은 `ExecutionPolicy` 때문에 활성화 오류가 나면 아래 참고를 확인하세요.
+
+**Windows (PowerShell)**
+
+```powershell
+# 가상환경 생성
+python -m venv .venv
+
+# 활성화
+.\.venv\Scripts\Activate.ps1
+# (필요 시) 일시적으로 스크립트 허용:
+# Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# 패키지 설치
+pip install -r requirements.txt
+
+### macOS / Linux 설치 과정
+
+# 가상환경 생성
+python3 -m venv .venv
+
+# 활성화
+source .venv/bin/activate
+
+# 패키지 설치
+pip install -r requirements.txt
