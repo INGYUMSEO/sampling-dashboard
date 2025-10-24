@@ -1,0 +1,33 @@
+# --- Python basics ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.log
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- Environment / secrets (NEVER COMMIT real secrets) ---
+.env
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Notebooks / temp ---
+.ipynb_checkpoints/
+*.ipynb
+*.tmp
+
+# --- Data / exports (optional: ignore local data dumps) ---
+data/
+exports/
+*.csv
+*.xlsx
